@@ -19,7 +19,7 @@ const BenefitsSection: React.FC = () => {
           <div
             className={cn(
               styles.conic,
-              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[380px] min-w-[323px]"
+              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[300px] min-w-[300px]"
             )}
           >
             <Image
@@ -37,7 +37,7 @@ const BenefitsSection: React.FC = () => {
           <div
             className={cn(
               styles.conic,
-              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[380px] min-w-[323px]"
+              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[300px] min-w-[300px]"
             )}
           >
             <Image
@@ -55,7 +55,7 @@ const BenefitsSection: React.FC = () => {
           <div
             className={cn(
               styles.conic,
-              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[380px] min-w-[323px]"
+              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[300px] min-w-[300px]"
             )}
           >
             <Image
@@ -76,7 +76,7 @@ const BenefitsSection: React.FC = () => {
           <div
             className={cn(
               styles.conic,
-              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[380px] min-w-[323px]"
+              "w-full lg:w-1/2 h-full sm:h-80 text-base p-6 min-h-[300px] min-w-[300px]"
             )}
           >
             <Image

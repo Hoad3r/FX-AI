@@ -45,8 +45,8 @@ const MethodologySection: React.FC<MethodologySectionProps> = ({
                       <Image
                         src={card.icon}
                         alt={`${card.title} Ícone`}
-                        width={64}
-                        height={64}
+                        width={200}
+                        height={200}
                         className="w-full h-full z-10 object-contain"
                       />
                   </CardHeader>

@@ -46,19 +46,19 @@ const methodologyCards = [
     title: 'Escolha seu plano',
     description:
       'Nossa equipe fará uma entrevista inicial para entender como funciona sua operação e demonstrar as oportunidades que temos para o teu negócio.',
-    icon: '/choose-video.svg'
+    icon: '/lupa.svg'
   },
   {
     title: 'Setup Inicial',
     description:
     'Após você escolher seu plano e fecharmos negócio, nossa equipe fará uma reunião inicial de onboarding para entender melhor a sua operação. Criaremos um diagnostico extremamente detalhado, identificando como a IA e as automações irão se comportar e então desenvolvemos sua automação.',
-    icon: '/answer.svg'
+    icon: '/dedo-2.svg'
   },
   {
     title: 'Integração e estratégia',
     description:
       'Integraremos as automações dentro dos processos de sua empresa e treinamos sua equipe de suporte. Ajustaremos continuamente seus agentes de IA para atender as necessidades especificas. Após esse período, sua operação estará otimizada e pronta para alcançar resultados que nunca imaginou antes.',
-    icon: '/video-delivery.svg'
+    icon: '/mao-3.svg'
   },
 ]
 

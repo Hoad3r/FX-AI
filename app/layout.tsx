@@ -9,10 +9,36 @@ import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// export const metadata: Metadata = {
+//   title: "FX Ai",
+//   description: "FX Ai",
+// };
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.fxai.com.br"),
   title: "FX Ai",
-  description: "FX Ai",
+  description: "FX Ai.",
+  openGraph: {
+    title: "FX Ai",
+    description: "FX Ai.",
+    url: "https://www.fxai.com.br",
+    siteName: "FX Ai",
+    images: [
+      {
+        url: "/favicon.ico", // Substitua por uma imagem real caso queira
+        width: 1200,
+        height: 630,
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "FX Ai",
+    description: "FX Ai.",
+    images: ["/favicon.ico"],
+  },
 };
+
 
 export default function RootLayout({
   children,
@@ -22,7 +48,7 @@ export default function RootLayout({
   return (
     <>
       <html lang="pt-br" suppressHydrationWarning>
-        <Script id="google-arts-head">
+        {/* <Script id="google-arts-head">
           {`
           <!-- Google Tag Manager -->
           <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -59,7 +85,7 @@ export default function RootLayout({
         fbq('init', '1236585911060814');
         fbq('track', 'PageView');
       `}
-        </Script>
+        </Script> */}
         <head />
         <body
           className={cn("min-h-screen bg-background font-sans antialiased")}

@@ -4,12 +4,12 @@ import React from 'react'
 import Link from 'next/link'
 
 const ContactSection: React.FC = () => {
-    const openWhatsApp = () => {
-        const phoneNumber = '5511934748273';
-        //@ts-ignore
-        window?.fbq('track', 'Botao1');
-        window.open(`https://wa.me/${phoneNumber}/?text=Olá%20BK%20Arts`, '_blank');
-    };
+  const openWhatsApp = () => {
+      const phoneNumber = '558396834981';
+      //@ts-ignore
+      window?.fbq('track', 'Botao1');
+      window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20FX`, '_blank');
+  };
   return (
     <section
       id="contato"

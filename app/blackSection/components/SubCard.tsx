@@ -33,7 +33,7 @@ export default function SubCard({
   const oldValueFloat = oldValue.split(',')[1]
 
   return (
-    <div className="flex flex-col gap-8 max-w-[350px] h-full unlimited">
+    <div className="flex flex-col gap-8 max-w-[550px] h-full unlimited">
       {hasButton ? (
         <p
         className={tag

@@ -10,8 +10,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Comunidade BK",
-  description: "Comunidade BK",
+  title: "FX Ai",
+  description: "FX Ai",
 };
 
 export default function RootLayout({

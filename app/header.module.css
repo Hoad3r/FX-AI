@@ -1,0 +1,121 @@
+.header {
+    scroll-behavior: smooth;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    background-color: transparent;
+    z-index: 999;
+    @apply text-zinc-400 px-[13.5rem] p-4 w-full sm:border-b border-zinc-900;
+  }
+  
+  .blackBackground {
+    background-color: rgba(0, 0, 0, 0.74)
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  .li {
+    margin: 16px;
+  }
+  
+  .link {
+    text-decoration: none;
+    @apply hover:text-gray-100;
+  }
+  
+  @keyframes vercel-logo-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding: 0 20px;
+    }
+  
+    .hamburger {
+      display: block;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 9999;
+    }
+  
+    .hamburger.open .bar:nth-child(1) {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .hamburger.open .bar:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.open .bar:nth-child(3) {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }  
+  
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px 0;
+      background-color: #fff;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .nav {
+      position: fixed;
+      top: 56px;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      transition: left 0.3s ease-in-out;
+      z-index: 998;
+    }
+  
+    .open {
+      left: 0;
+      z-index: 9999;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+  
+    .navOpen {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.9);
+    }
+  
+    .ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50%;
+      font-size: 1.5rem;
+    }
+  }

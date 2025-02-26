@@ -1,0 +1,44 @@
+.bg1 {
+  animation: one 10s infinite;
+}
+
+.bg2 {
+  animation: two 10s infinite;
+}
+
+@media screen and (min-width: 768px) {
+  @keyframes one{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+  }
+
+  @keyframes two{
+    0%{left: 0px; top: 0px;}
+    25%{left: 50px; top: 10px;}
+    50%{left: 100px; top: 50px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  @keyframes one{
+    0%{left: 0px; top: 0px;}
+    25%{left: 10px; top: 70px;}
+    50%{left: 20px; top: 200px;}
+    75%{left: 30px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+  }
+
+  @keyframes two{
+    0%{left: 0px; top: 0px;}
+    25%{left: 10px; top: 10px;}
+    50%{left: 30px; top: 50px;}
+    75%{left: 20px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+  }
+}

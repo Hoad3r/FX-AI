@@ -34,10 +34,7 @@ export default function PlansSection({ title, pix, fb }: PlansSectionProps) {
             alt="Checkmark for highlighting."
           />
         </div>
-        <span
-          className="text-[clamp(16px,_3vw,_16px)] mt-4 text-center text-lg font-semibold text-white flex items-center gap-1 sm:hidden">
-          Entrega em média 24hrs e direito a correção caso necessário.
-        </span>
+
       </div>
 
       <span

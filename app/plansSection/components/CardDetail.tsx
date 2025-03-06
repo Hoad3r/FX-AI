@@ -16,9 +16,9 @@ export default function CardDetail({
 }: CardDetailProps) {
   return (
     <div
-      className={`flex items-center mt-${marginY[0]} mb-${marginY[1]} gap-1 ${extraStyles}`}
+      className={`flex items-start mt-${marginY[0]} mb-${marginY[1]} gap-1 ${extraStyles}`}
     >
-      <div className="relative w-[13px] h-[13px]">
+      <div className="relative w-[13px] h-[13px] mt-1">
         <Image
           src="checkmark.svg"
           fill
@@ -27,8 +27,8 @@ export default function CardDetail({
         />
       </div>
       <span
-        className={`text-[clamp(12px,_3vw,_16px)] sm:text-[14px] font-light text-center text-white/[0.5] flex items-center gap-1 ${textStyles}`}
-        dangerouslySetInnerHTML={{ __html: String(children) }}
+        className={`text-[clamp(12px,_3vw,_16px)] sm:text-[14px] font-light text-left text-white/[0.5] flex flex-col items-start gap-1 ${textStyles}`}
+        dangerouslySetInnerHTML={{ __html: String(children).replace(/\n/g, '<br>') }}
       ></span>
     </div>
   );

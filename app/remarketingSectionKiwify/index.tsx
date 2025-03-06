@@ -29,13 +29,7 @@ export default function RemarketingSectionKiwify({ title, pix }: RemarketingSect
         Todos os planos com 20% OFF!
       </CardDetail>
 
-      <CardDetail
-        marginY={[3, 0]}
-        extraStyles="mx-auto hidden sm:mt-4 sm:flex"
-        textStyles="!text-lg !font-semibold !text-white"
-      >
-        Entrega em média 24hrs e direito a correção caso necessário.
-      </CardDetail>
+
 
       <div
       className={`mx-auto flex sm:mt-4 sm:hidden items-center text-lg p-2 font-semibold text-white`}>
@@ -47,10 +41,7 @@ export default function RemarketingSectionKiwify({ title, pix }: RemarketingSect
             alt="Checkmark for highlighting."
           />
         </div>
-        <span
-          className="text-[clamp(16px,_3vw,_16px)] mt-4 text-center text-lg font-semibold text-white flex items-center gap-1 sm:hidden">
-          Entrega em média 24hrs e direito a correção caso necessário.
-        </span>
+
       </div>
 
       <span

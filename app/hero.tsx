@@ -8,11 +8,11 @@ import style from "./hero.module.css";
 
 export function Hero({fb}: {fb?: boolean}) {
   const openWhatsApp = () => {
-    const phoneNumber = '558396834981';
+    const phoneNumber = '5547997114153';
     //@ts-ignore
     window?.fbq('track', 'Botao1');
-    window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20Fx`, '_blank');
-  };
+    window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20FX`, '_blank');
+};
 
   return (
     <div className="font-sans w-full pb-16 pt-36 md:pb-24 lg:pb-32 md:pt-24 lg:pt-48 xl:pt-56 2xl:pt-64 flex justify-between gap-8 items-center flex-col relative z-0">

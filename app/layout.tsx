@@ -71,7 +71,8 @@ export default function RootLayout({
             gtag('config', 'AW-16524828340');
           </script>
           `}
-        </Script>
+          
+        </Script> */}
         <Script id="facebook-pixel">
           {`
         !function(f,b,e,v,n,t,s)
@@ -85,7 +86,7 @@ export default function RootLayout({
         fbq('init', '1236585911060814');
         fbq('track', 'PageView');
       `}
-        </Script> */}
+        </Script>
         <head />
         <body
           className={cn("min-h-screen bg-background font-sans antialiased")}

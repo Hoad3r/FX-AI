@@ -5,8 +5,8 @@ const benefits = [
   '<strong class="text-white font-bold">Tudo do Plano Pro +</strong>',
   '<strong class="text-white font-bold">Integração completa com Instagram.</strong>',
   '<strong class="text-white font-bold">Respostas automatizadas para DMs.</strong>',
-  '<strong class="font-bold text-white">IA que interage com os clientes de forma natural, aumentando o engajamento.</strong>',
-  '<strong class="text-white font-bold">Estratégias para aumentar conversões diretamente no WhatsApp e Instagram.</strong>',
+  '<strong class="font-bold text-white">IA que interage com os clientes de forma natural,\naumentando o engajamento.</strong>',
+  '<strong class="text-white font-bold">Estratégias para aumentar conversões\ndiretamente no WhatsApp e Instagram.</strong>',
 ];
 
 export default function UnlimitedPlan({
@@ -18,9 +18,9 @@ export default function UnlimitedPlan({
   remarketing?: boolean;
   fb?: boolean;
 }) {
-  const creditUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
-  const pixUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
-  const fbUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const creditUrl = 'https://wa.me/5547997114153/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const pixUrl = 'https://wa.me/5547997114153/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const fbUrl = 'https://wa.me/5547997114153/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
 
   return (
     <SubCard

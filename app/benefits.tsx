@@ -11,7 +11,7 @@ const BenefitsSection: React.FC = () => {
     >
       <div className="flex flex-col lg:flex-row pt-4 w-full items-center">
         <h1 className="font-bold w-full text-center lg:text-center text-3xl md:text-5xl pt-8 lg:pt-0 px-6 lg:px-24 text-wrap-balance">
-        Cansado de responder sempre as mesmas respostas dos seus clientes?
+        Cansado de lidar sempre com as mesmas dúvidas dos seus clientes?
         </h1>
       </div>
       <div className="flex flex-col lg:flex-row pb-4 w-full items-center ">

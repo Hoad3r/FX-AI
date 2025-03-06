@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const ContactSection: React.FC = () => {
   const openWhatsApp = () => {
-      const phoneNumber = '558396834981';
+      const phoneNumber = '5547997114153';
       //@ts-ignore
       window?.fbq('track', 'Botao1');
       window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20FX`, '_blank');

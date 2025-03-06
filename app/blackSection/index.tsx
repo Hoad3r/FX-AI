@@ -34,7 +34,6 @@ export default function BlackSection({ title, pix }: BlackSectionProps) {
         extraStyles="mx-auto hidden sm:mt-4 sm:flex"
         textStyles="!text-lg !font-semibold !text-white"
       >
-        Entrega em média 24hrs e direito a correção caso necessário.
       </CardDetail>
 
       <div
@@ -49,7 +48,6 @@ export default function BlackSection({ title, pix }: BlackSectionProps) {
         </div>
         <span
           className="text-[clamp(16px,_3vw,_16px)] mt-4 text-center text-lg font-semibold text-white flex items-center gap-1 sm:hidden">
-          Entrega em média 24hrs e direito a correção caso necessário.
         </span>
       </div> */}
 

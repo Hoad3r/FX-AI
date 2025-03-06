@@ -45,7 +45,7 @@ const methodologyCards = [
   {
     title: 'Escolha seu plano',
     description:
-      'Nossa equipe fará uma entrevista inicial para entender como funciona sua operação e demonstrar as oportunidades que temos para o teu negócio.',
+      'Nossa equipe realizará uma entrevista inicial para compreender melhor o funcionamento da sua operação e apresentar em detalhes as oportunidades que temos para impulsionar o seu negócio. Esse processo nos permitirá identificar soluções personalizadas e estratégicas para maximizar seus resultados.',
     icon: '/lupa.svg'
   },
   {

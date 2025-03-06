@@ -59,7 +59,7 @@ const Header = (): JSX.Element => {
         <Image
           src="/logo.png"
           alt="Fx Ai Logo"
-          width={180}
+          width={90}
           height={20}
         />
       </Link>

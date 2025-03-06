@@ -3,7 +3,7 @@ import React from "react";
 
 const WhatsAppButton = () => {
   const openWhatsApp = () => {
-    const phoneNumber = '558396834981';
+    const phoneNumber = '5547997114153';
     window.open(`https://wa.me/${phoneNumber}/?text=Olá%20Fx,%20gostaria%20de%20saber%20mais%20sobre%20as%20ofertas!`, '_blank');
   };
 

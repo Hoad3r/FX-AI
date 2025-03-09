@@ -35,30 +35,30 @@ const influencers = [
     instagram: '@beclotwear'
   },
   {
-    name: 'ELEGANCY STORE',
-    photo: '/lojas-parceiras/elegancy.png',
-    instagram: '@elegancy.perfumes'
+    name: 'Sinonimo Club',
+    photo: '/lojas-parceiras/sinonimo.jpg',
+    instagram: '@sinonimoclub'
   },
 ]
 
 const methodologyCards = [
   {
-    title: 'Escolha seu produto',
+    title: 'Escolha seu plano',
     description:
-      'Selecione seu produto e inclua quaisquer complementos extras que desejar. Envie todas as informações para nós e fazemos o resto!',
-    icon: '/choose-video.svg'
+      'Nossa equipe realizará uma entrevista inicial para compreender melhor o funcionamento da sua operação e apresentar em detalhes as oportunidades que temos para impulsionar o seu negócio. Esse processo nos permitirá identificar soluções personalizadas e estratégicas para maximizar seus resultados.',
+    icon: '/lupa.svg'
   },
   {
-    title: 'Responda algumas perguntas',
+    title: 'Setup Inicial',
     description:
-      'Você receberá o convite para um grupo com nossa equipe e ali preencher o formulário de envio e fornecer as informações necessárias.',
-    icon: '/answer.svg'
+    'Após você escolher seu plano e fecharmos negócio, nossa equipe fará uma reunião inicial de onboarding para entender melhor a sua operação. Criaremos um diagnostico extremamente detalhado, identificando como a IA e as automações irão se comportar e então desenvolvemos sua automação.',
+    icon: '/dedo-2.svg'
   },
   {
-    title: 'Criativos e Landing Pages entregues',
+    title: 'Integração e estratégia',
     description:
-      'Assim que terminarmos, você receberá uma prévia da arte para você avaliar e enviaremos o seu pedido pelo Drive.',
-    icon: '/video-delivery.svg'
+      'Integraremos as automações dentro dos processos de sua empresa e treinamos sua equipe de suporte. Ajustaremos continuamente seus agentes de IA para atender as necessidades especificas. Após esse período, sua operação estará otimizada e pronta para alcançar resultados que nunca imaginou antes.',
+    icon: '/mao-3.svg'
   },
 ]
 

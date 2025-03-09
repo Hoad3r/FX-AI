@@ -35,9 +35,9 @@ const influencers = [
     instagram: '@beclotwear'
   },
   {
-    name: 'ELEGANCY STORE',
-    photo: '/lojas-parceiras/elegancy.png',
-    instagram: '@elegancy.perfumes'
+    name: 'Sinonimo Club',
+    photo: '/lojas-parceiras/sinonimo.jpg',
+    instagram: '@sinonimoclub'
   },
 ]
 

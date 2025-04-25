@@ -39,6 +39,11 @@ const influencers = [
     photo: '/lojas-parceiras/sinonimo.jpg',
     instagram: '@sinonimoclub'
   },
+  {
+    name: 'Fastly',
+    photo: '/lojas-parceiras/fastly.jpg',
+    instagram: '@lojafastly'
+  },
 ]
 
 const methodologyCards = [

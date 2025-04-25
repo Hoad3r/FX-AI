@@ -1,17 +1,17 @@
 import { PageActions, PageHeader, PageHeaderDescription, PageHeaderHeading } from "@/components/page-header";
 import Link from "next/link";
 import { Button } from "@/components/ui/button"
-import AboutSection from "./about";
-import BenefitsSection from "./benefits";
-import ClientsSection from "./clients";
-// import PartnersSection from "./partnersSection";
-import MethodologySection from "./methodology";
-import LandingBackground from "./background";
-import style from './hero.module.css'
-import { Hero } from "./hero_sem_bk";
-import ContactSection from "./contact";
-import WhatsAppButton from "./whats";
-import PlansSection from "./plansSection/";
+import AboutSection from "../about";
+import BenefitsSection from "../benefits";
+import ClientsSection from "../clients";
+import PartnersSection from "../partnersSection";
+import MethodologySection from "../methodology";
+import LandingBackground from "../background";
+import style from '../hero.module.css'
+import { Hero } from "../hero";
+import ContactSection from "../contact";
+import WhatsAppButton from "../whats";
+import PlansSection from "../plansSection/";
 
 const influencers = [
   {
@@ -76,7 +76,7 @@ export default function Home() {
       <BenefitsSection />
       <AboutSection />
       <MethodologySection methodologyCards={methodologyCards} />
-      {/* <PartnersSection /> */}
+      <PartnersSection />
       <ClientsSection influencers={influencers} />
       <PlansSection title="<strong>Planos</strong> disponíveis." pix={false} fb={false}/>
       <ContactSection />

@@ -16,9 +16,9 @@ export default function ExperiencePlan({
   pix?: boolean
   remarketing?: boolean
   fb?: boolean }) {
-  const creditUrl = 'https://wa.me/5547997114153/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
-  const pixUrl = 'https://wa.me/5547997114153/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
-  const fbUrl = 'https://wa.me/5547997114153/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
+  const creditUrl = 'https://wa.me/558396834981/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
+  const pixUrl = 'https://wa.me/558396834981/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
+  const fbUrl = 'https://wa.me/558396834981/?text=Olá%20Fx, gostaria de saber mais sobre o plano Pro!'
   return (
     <SubCard
       title="Pro"

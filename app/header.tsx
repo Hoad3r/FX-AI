@@ -56,12 +56,15 @@ const Header = (): JSX.Element => {
       } ${isOpen ? styles.open : ""}`}
     >
       <Link href="/" onClick={handleLogoAndHomeClick} passHref>
-        <Image
-          src="/logo.png"
-          alt="Fx Ai Logo"
-          width={90}
-          height={20}
-        />
+        <div className="relative w-[150px] h-[40px]">
+  <Image
+    src="/logo.png"
+    alt="Fx Ai Logo"
+    fill
+    style={{ objectFit: "contain" }}
+  />
+</div>
+
       </Link>
 
       <button
@@ -79,6 +82,16 @@ const Header = (): JSX.Element => {
         }`}
       >
         <ul className={styles.ul}>
+          <li className={styles.li}>
+            <Link
+              href="/"
+              passHref
+              className={styles.link}
+              onClick={handleLogoAndHomeClick}
+            >
+              Home
+            </Link>
+          </li>
           <li className={styles.li}>
             <Link
               href="#beneficios"
@@ -121,7 +134,7 @@ const Header = (): JSX.Element => {
               className={styles.link}
               onClick={handleLinkClick}
             >
-              Planos
+              Serviços
             </Link>
           </li>
         </ul>

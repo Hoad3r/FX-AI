@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import Header from "./header";
 import Footer from "./footer";
 import Script from "next/script";
+import EnhancedFooter from "./enhancedFooter";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,16 +16,30 @@ const inter = Inter({ subsets: ["latin"] });
 // };
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.fxai.com.br"),
-  title: "FX Ai",
-  description: "FX Ai.",
+  title: "FX AI | Agência de IA",
+  description: "Fazemos agentes de IA trabalharem para você! Somos especialistas em IA e automações para mercado digital.",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+    other: [
+      { url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+  },
   openGraph: {
-    title: "FX Ai",
-    description: "FX Ai.",
+    title: "FX AI | Agência de IA",
+    description: "Fazemos agentes de IA trabalharem para você! Somos especialistas em IA e automações para mercado digital.",
     url: "https://www.fxai.com.br",
-    siteName: "FX Ai",
+    siteName: "FX AI | Agência de IA",
     images: [
       {
-        url: "/favicon.ico", // Substitua por uma imagem real caso queira
+        url: "/favicon.ico", // Você pode criar uma imagem específica para compartilhamento em redes sociais
         width: 1200,
         height: 630,
       },
@@ -34,9 +49,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "FX Ai",
-    description: "FX Ai.",
-    images: ["/favicon.ico"],
+    description: "Fazemos agentes de IA trabalharem para você! Somos especialistas em IA e automações para mercado digital.",
+    images: ["/og-image.png"],
   },
+  manifest: '/site.webmanifest',
 };
 
 
@@ -112,7 +128,7 @@ export default function RootLayout({
               <div className="relative flex min-h-screen flex-col bg-background">
                 <Header />
                 <main className="flex-1">{children}</main>
-                <Footer />
+                <EnhancedFooter />
               </div>
             </div>
           </ThemeProvider>

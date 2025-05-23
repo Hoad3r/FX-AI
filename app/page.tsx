@@ -12,6 +12,10 @@ import { Hero } from "./hero_sem_bk";
 import ContactSection from "./contact";
 import WhatsAppButton from "./whats";
 import PlansSection from "./plansSection/";
+import ServicesSection from "./services";
+import FaqSection from "./faq";
+import HeroSection from "./heroSection";
+import ApplicationCases from "./applicationCases";
 
 const influencers = [
   {
@@ -44,6 +48,11 @@ const influencers = [
     photo: '/lojas-parceiras/fastly.jpg',
     instagram: '@lojafastly'
   },
+  {
+    name: 'MORAH Imóveis',
+    photo: '/lojas-parceiras/morah.png',
+    instagram: '@morahimoveisjp'
+  }
 ]
 
 const methodologyCards = [
@@ -74,12 +83,17 @@ export default function Home() {
       <Hero />
       <WhatsAppButton />
       <BenefitsSection />
-      <AboutSection />
+      <HeroSection />
+      {/* <AboutSection /> */}
+      <ApplicationCases />
+      <ServicesSection />
       <MethodologySection methodologyCards={methodologyCards} />
       {/* <PartnersSection /> */}
       <ClientsSection influencers={influencers} />
-      <PlansSection title="<strong>Planos</strong> disponíveis." pix={false} fb={false}/>
-      <ContactSection />
+      {/* <PlansSection title="<strong>Planos</strong> disponíveis." pix={false} fb={false}/> */}
+      <FaqSection />
+      {/* <ContactSection /> */}
+      
     </div>
   );
 }

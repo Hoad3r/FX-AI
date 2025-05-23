@@ -18,9 +18,9 @@ export default function UnlimitedPlan({
   remarketing?: boolean;
   fb?: boolean;
 }) {
-  const creditUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
-  const pixUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
-  const fbUrl = 'https://wa.me/558396834981/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const creditUrl = 'https://wa.me/5511944405779/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const pixUrl = 'https://wa.me/55511944405779/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
+  const fbUrl = 'https://wa.me/5511944405779/?text=Olá%20FX, gostaria de saber mais sobre o plano Premium!'
 
   return (
     <SubCard

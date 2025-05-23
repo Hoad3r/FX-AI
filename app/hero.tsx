@@ -8,7 +8,7 @@ import style from "./hero.module.css";
 
 export function Hero({fb}: {fb?: boolean}) {
   const openWhatsApp = () => {
-    const phoneNumber = '558396834981';
+    const phoneNumber = '5511944405779';
     //@ts-ignore
     window?.fbq('track', 'Botao1');
     window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20FX`, '_blank');
@@ -24,7 +24,7 @@ export function Hero({fb}: {fb?: boolean}) {
           Fazemos agentes de IA trabalharem pra você!
         </h1>
         <p className="font-space-grotesk leading-snug dark:text-[#FFFFFFB2] text-[#000000a0] text-[20px] lg:text-xl max-w-md md:max-w-xl lg:max-w-[640px] text-center">
-        Somos um time de especialistas em IA e automações para ecommerce, nossa missão é poupar seu tempo e potencializar suas vendas!
+        Somos um time de especialistas em IA e automações para mercado digital, nossa missão é poupar seu tempo e potencializar suas vendas!
         </p>
         <p className="font-space-grotesk leading-snug dark:text-[#FFFFFFB2] text-[#000000a0] text-[20px] lg:text-xl max-w-md md:max-w-xl lg:max-w-[640px] text-center">
         Temos parceria com o BK! Aproveite as ofertas especiais para você que é cliente BK!

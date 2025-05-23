@@ -21,7 +21,7 @@ const Header = (): JSX.Element => {
     const targetElement = targetId ? document.querySelector(targetId) : null;
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(!isOpen);
+      setIsOpen(false); // Fechar o menu móvel após clicar
     }
   };
 
@@ -57,14 +57,13 @@ const Header = (): JSX.Element => {
     >
       <Link href="/" onClick={handleLogoAndHomeClick} passHref>
         <div className="relative w-[150px] h-[40px]">
-  <Image
-    src="/logo.png"
-    alt="Fx Ai Logo"
-    fill
-    style={{ objectFit: "contain" }}
-  />
-</div>
-
+          <Image
+            src="/logo.png"
+            alt="Fx Ai Logo"
+            fill
+            style={{ objectFit: "contain" }}
+          />
+        </div>
       </Link>
 
       <button
@@ -104,17 +103,22 @@ const Header = (): JSX.Element => {
           </li>
           <li className={styles.li}>
             <Link
-              href="#sobre"
+              href="#servicos"
               passHref
               className={styles.link}
               onClick={handleLinkClick}
             >
-              Sobre nós
+              Serviços
             </Link>
           </li>
           <li className={styles.li}>
-            <Link href="#metodologia" passHref className={styles.link} onClick={handleLinkClick}>
-                Metodologia
+            <Link 
+              href="#metodologia" 
+              passHref 
+              className={styles.link} 
+              onClick={handleLinkClick}
+            >
+              Metodologia
             </Link>
           </li>
           <li className={styles.li}>
@@ -124,17 +128,41 @@ const Header = (): JSX.Element => {
               className={styles.link}
               onClick={handleLinkClick}
             >
-              Lojas Parceiras
+              Parceiros
             </Link>
           </li>
           <li className={styles.li}>
             <Link
-              href="#planos"
+              href="#faq"
               passHref
               className={styles.link}
               onClick={handleLinkClick}
             >
-              Serviços
+              FAQ
+            </Link>
+          </li>
+          <li className={styles.li}>
+            <Link
+              href="#"
+              passHref
+              className={styles.link}
+              onClick={(e) => {
+                e.preventDefault();
+                const phoneNumber = '5511944405779';
+                const message = `Olá! Gostaria de falar com um especialista sobre soluções de IA para meu negócio.`;
+                const encodedMessage = encodeURIComponent(message);
+                
+                // @ts-ignore
+                if (window?.fbq) {
+                  // @ts-ignore
+                  window.fbq('track', 'ContatoHeader');
+                }
+                
+                window.open(`https://wa.me/${phoneNumber}/?text=${encodedMessage}`, '_blank');
+                setIsOpen(false); // Fechar o menu móvel após clicar
+              }}
+            >
+              Contato
             </Link>
           </li>
         </ul>

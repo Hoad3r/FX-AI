@@ -44,6 +44,11 @@ const influencers = [
     photo: '/lojas-parceiras/fastly.jpg',
     instagram: '@lojafastly'
   },
+  {
+    name: 'MORAH Imóveis',
+    photo: '/lojas-parceiras/morah.png',
+    instagram: '@morahimoveisjp'
+  }
 ]
 
 const methodologyCards = [

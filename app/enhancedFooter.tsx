@@ -115,7 +115,7 @@ export default function EnhancedFooter() {
               </li>
               <li>
                 <a href="tel:+5583989027272" className="hover:text-[#C4AC68] transition-colors">
-                  +55 11 94440-5779
+                  +55 83 98902-7272
                 </a>
               </li>
             </ul>

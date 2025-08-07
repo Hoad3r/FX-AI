@@ -17,10 +17,10 @@ export default function TestPlan({
   remarketing?: boolean
   fb?: boolean
 }) {
-  const creditUrl = 'https://wa.me/5511944405779/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
-  const pixUrl = 'https://wa.me/5511944405779/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
-  const remarketingUrl = 'https://wa.me/5511944405779/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
-  const fbUrl = 'https://wa.me/5511944405779/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
+  const creditUrl = 'https://wa.me/5583989027272/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
+  const pixUrl = 'https://wa.me/5583989027272/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
+  const remarketingUrl = 'https://wa.me/5583989027272/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
+  const fbUrl = 'https://wa.me/5583989027272/?text=Olá%20Fx, gostaria de saber mais sobre o plano Essencial!'
 
 
   return (

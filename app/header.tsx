@@ -148,7 +148,7 @@ const Header = (): JSX.Element => {
               className={styles.link}
               onClick={(e) => {
                 e.preventDefault();
-                const phoneNumber = '5511944405779';
+                const phoneNumber = '5583989027272';
                 const message = `Olá! Gostaria de falar com um especialista sobre soluções de IA para meu negócio.`;
                 const encodedMessage = encodeURIComponent(message);
                 

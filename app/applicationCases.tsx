@@ -11,7 +11,7 @@ export default function ApplicationCases() {
   };
 
   const openWhatsApp = (planName: string) => {
-    const phoneNumber = '5511944405779';
+    const phoneNumber = '5583989027272';
     const message = `Olá! Estou interessado no plano ${planName} para e-commerce/Dropshipping. Poderia me dar mais informações?`;
     const encodedMessage = encodeURIComponent(message);
     
@@ -54,6 +54,7 @@ export default function ApplicationCases() {
               
               <div className="absolute bottom-0 right-0 p-4">
               <button 
+                type="button"
                 onClick={toggleEcommercePlans}
                 className={`flex items-center text-[#C4AC68] hover:text-white transition-colors group ${isEcommerceExpanded ? 'md:block hidden' : ''}`}
               >
@@ -80,6 +81,7 @@ export default function ApplicationCases() {
                   {/* Plano Essencial */}
                   <div className="border border-[#C4AC68]/20 rounded-lg overflow-hidden">
                     <button 
+                      type="button"
                       onClick={() => {}} // Apenas visual, não é um acordeão funcional
                       className="w-full bg-[#C4AC68]/10 p-4 text-left flex items-center justify-between"
                     >
@@ -116,6 +118,7 @@ export default function ApplicationCases() {
                         </li>
                       </ul>
                       <button 
+                        type="button"
                         onClick={() => openWhatsApp('Essencial')}
                         className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                       >
@@ -130,6 +133,7 @@ export default function ApplicationCases() {
                       MAIS POPULAR
                     </div>
                     <button 
+                      type="button"
                       onClick={() => {}} // Apenas visual
                       className="w-full bg-[#C4AC68]/20 p-4 pt-8 text-left flex items-center justify-between"
                     >
@@ -166,6 +170,7 @@ export default function ApplicationCases() {
                         </li>
                       </ul>
                       <button 
+                        type="button"
                         onClick={() => openWhatsApp('Pro')}
                         className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                       >
@@ -177,6 +182,7 @@ export default function ApplicationCases() {
                   {/* Plano Premium */}
                   <div className="border border-[#C4AC68]/20 rounded-lg overflow-hidden">
                     <button 
+                      type="button"
                       onClick={() => {}} // Apenas visual
                       className="w-full bg-[#C4AC68]/10 p-4 text-left flex items-center justify-between"
                     >
@@ -219,6 +225,7 @@ export default function ApplicationCases() {
                         </li>
                       </ul>
                       <button 
+                        type="button"
                         onClick={() => openWhatsApp('Premium')}
                         className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                       >
@@ -231,6 +238,7 @@ export default function ApplicationCases() {
                 {/* Botão para fechar a seção expandida (versão mobile) */}
                 <div className="mt-8 text-center">
                   <button 
+                    type="button"
                     onClick={toggleEcommercePlans}
                     className="inline-flex justify-center items-center px-6 py-2 rounded-md bg-[#C4AC68]/20 text-white hover:bg-[#C4AC68]/30 transition-colors"
                   >
@@ -262,8 +270,9 @@ export default function ApplicationCases() {
               
               <div className="absolute bottom-0 right-0 p-4">
                 <button 
+                  type="button"
                   onClick={() => {
-                    const phoneNumber = '5511944405779';
+                    const phoneNumber = '5583989027272';
                     const message = `Olá! Estou interessado nos planos da Fx AI para imobiliária. Poderia me dar mais informações?`;
                     const encodedMessage = encodeURIComponent(message);
                     
@@ -304,8 +313,9 @@ export default function ApplicationCases() {
               
               <div className="absolute bottom-0 right-0 p-4">
                 <button 
+                  type="button"
                   onClick={() => {
-                    const phoneNumber = '5511944405779';
+                    const phoneNumber = '5583989027272';
                     const message = `Olá! Estou interessado nos planos da Fx AI para marketing. Poderia me dar mais informações?`;
                     const encodedMessage = encodeURIComponent(message);
                     
@@ -374,6 +384,7 @@ export default function ApplicationCases() {
                   </ul>
                   
                   <button 
+                    type="button"
                     onClick={() => openWhatsApp('Essencial')}
                     className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                   >
@@ -425,6 +436,7 @@ export default function ApplicationCases() {
                   </ul>
                   
                   <button 
+                    type="button"
                     onClick={() => openWhatsApp('Pro')}
                     className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                   >
@@ -479,6 +491,7 @@ export default function ApplicationCases() {
                   </ul>
                   
                   <button 
+                    type="button"
                     onClick={() => openWhatsApp('Premium')}
                     className="w-full py-3 px-4 bg-[#C4AC68] hover:bg-[#d4bc78] text-white font-medium rounded-md transition-colors"
                   >
@@ -491,6 +504,7 @@ export default function ApplicationCases() {
             {/* Botão para fechar a seção expandida (versão desktop) */}
             <div className="mt-8 text-center">
               <button 
+                type="button"
                 onClick={toggleEcommercePlans}
                 className="inline-flex justify-center items-center px-6 py-2 rounded-md bg-[#C4AC68]/20 text-white hover:bg-[#C4AC68]/30 transition-colors"
               >

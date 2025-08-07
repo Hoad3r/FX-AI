@@ -8,7 +8,7 @@ import style from "./hero.module.css";
 
 export function Hero({fb}: {fb?: boolean}) {
   const openWhatsApp = () => {
-    const phoneNumber = '5511944405779';
+    const phoneNumber = '5583989027272';
     //@ts-ignore
     window?.fbq('track', 'Botao1');
     window.open(`https://wa.me/${phoneNumber}/?text=Olá%20AI%20FX`, '_blank');

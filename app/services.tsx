@@ -106,7 +106,7 @@ export default function ServicesSection() {
                           onClick={() => {
                             const message = `Olá Fx AI! Gostaria de saber mais sobre ${service.title}.`;
                             const encodedMessage = encodeURIComponent(message);
-                            window.open(`https://wa.me/5511944405779/?text=${encodedMessage}`, '_blank');
+                            window.open(`https://wa.me/5583989027272/?text=${encodedMessage}`, '_blank');
                           }}
                           className="inline-flex justify-center items-center px-8 py-3 text-base font-medium text-white bg-[#C4AC68] hover:bg-[#d4bc78] rounded-md transition-all duration-300 ease-in-out"
                         >

@@ -63,7 +63,7 @@ export default function ServicesSection() {
           </p>
         </div>
 
-        <div className="relative w-full max-w-4xl mx-auto">
+        <div className="relative w-full max-w-4xl mx-auto overflow-hidden px-4 md:px-8">
           <Carousel
             orientation="horizontal"
             opts={{
@@ -79,36 +79,37 @@ export default function ServicesSection() {
                   <div 
                     className="h-[500px] flex flex-col rounded-xl overflow-hidden border border-[#C4AC68]/20 bg-[#0c0a09]/95 transition-all duration-300 hover:border-[#C4AC68]/40 hover:shadow-[0_0_15px_rgba(196,172,104,0.15)]"
                   >
-                    <div className="flex-1 p-8 flex flex-col">
-                      <div className="flex items-center justify-center mb-8">
-                        <div className="w-20 h-20 flex items-center justify-center p-4 rounded-full bg-[#C4AC68]/10">
+                    <div className="flex-1 p-4 md:p-8 flex flex-col">
+                      <div className="flex items-center justify-center mb-4 md:mb-8">
+                        <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center p-4 rounded-full bg-[#C4AC68]/10">
                           <Image 
                             src={service.icon} 
                             alt={service.title}
-                            width={40}
-                            height={40}
+                            width={32}
+                            height={32}
+                            className="md:w-10 md:h-10"
                           />
                         </div>
                       </div>
                       
-                      <h3 className="text-white text-2xl font-bold mb-5 text-center px-4">{service.title}</h3>
+                      <h3 className="text-white text-xl md:text-2xl font-bold mb-3 md:mb-5 text-center px-2 md:px-4">{service.title}</h3>
                       
-                      <p className="text-white/80 mb-6 text-center text-lg px-6">
+                      <p className="text-white/80 mb-4 md:mb-6 text-center text-sm md:text-lg px-3 md:px-6 leading-relaxed">
                         {service.description}
                       </p>
                       
-                      <p className="text-white/60 mb-8 text-center text-sm px-8">
+                      <p className="text-white/60 mb-6 md:mb-8 text-center text-xs md:text-sm px-4 md:px-8 leading-relaxed">
                         {service.detail}
                       </p>
                       
-                      <div className="mt-auto text-center">
+                      <div className="mt-auto text-center pb-4 md:pb-0">
                         <button 
                           onClick={() => {
                             const message = `Olá Fx AI! Gostaria de saber mais sobre ${service.title}.`;
                             const encodedMessage = encodeURIComponent(message);
                             window.open(`https://wa.me/5583989027272/?text=${encodedMessage}`, '_blank');
                           }}
-                          className="inline-flex justify-center items-center px-8 py-3 text-base font-medium text-white bg-[#C4AC68] hover:bg-[#d4bc78] rounded-md transition-all duration-300 ease-in-out"
+                          className="inline-flex justify-center items-center px-6 md:px-8 py-2 md:py-3 text-sm md:text-base font-medium text-white bg-[#C4AC68] hover:bg-[#d4bc78] rounded-md transition-all duration-300 ease-in-out"
                         >
                           Saber mais
                         </button>
@@ -120,10 +121,10 @@ export default function ServicesSection() {
             </CarouselContent>
             
             {/* Os botões de navegação devem estar dentro do componente Carousel mas podem ser estilizados para parecer que estão nas laterais */}
-            <div className="absolute top-1/2 -translate-y-1/2 left-4 z-10">
+            <div className="absolute top-1/2 -translate-y-1/2 left-8 md:left-12 z-10">
               <CarouselPrevious className="bg-[#C4AC68]/80 hover:bg-[#C4AC68] border-none text-white" />
             </div>
-            <div className="absolute top-1/2 -translate-y-1/2 right-4 z-10">
+            <div className="absolute top-1/2 -translate-y-1/2 right-8 md:right-12 z-10">
               <CarouselNext className="bg-[#C4AC68]/80 hover:bg-[#C4AC68] border-none text-white" />
             </div>
           </Carousel>
